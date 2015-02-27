@@ -1,0 +1,7 @@
+message Credentials{
+    required string firstName=1;
+    optional string lastName=2;
+    repeated string email = 3;
+    required string password = 4;
+
+}
